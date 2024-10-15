@@ -1,0 +1,6 @@
+@MobileChatApp_HostAddress = http://localhost:5271
+
+GET {{MobileChatApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
