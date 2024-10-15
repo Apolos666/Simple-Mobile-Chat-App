@@ -26,13 +26,14 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 }
 
 dependencies {
-
+    implementation("com.microsoft.signalr:signalr:8.0.0")
+    implementation("org.slf4j:slf4j-android:1.7.36")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
